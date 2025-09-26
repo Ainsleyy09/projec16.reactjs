@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header-custom {
+	background-color: #2b4a87; /* ganti sesuai selera */
+	color: white;
+}
+.header-custom .nav-link:hover {
+	color: #ffd700; /* contoh hover warna emas */
+}
+
+/* Hero Section */
+.hero-section {
+	background: #ffffff; /* putih clean */
+	color: #1e3a8a; /* biru tua elegan */
+	padding: 80px 20px;
+	transition: all 0.4s ease;
+  }
+  
+  .hero-section h1 {
+	font-size: 2.8rem;
+	font-weight: 800;
+	margin-bottom: 20px;
+	background: linear-gradient(135deg, #15458b, #0f2879);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+  }
+  
+  .hero-section p.lead {
+	font-size: 1.2rem;
+	color: #4b5563; 
+	margin-bottom: 30px;
+  }
+  
+  .hero-section .btn-primary {
+	background-color: #0d6efd;
+	border: none;
+	padding: 12px 28px;
+	font-size: 1rem;
+	font-weight: 600;
+	border-radius: 50px;
+	box-shadow: 0 4px 12px rgba(13, 110, 253, 0.4);
+	transition: 0.3s;
+  }
+  
+  .hero-section .btn-primary:hover {
+	background-color: #0b5ed7;
+	transform: translateY(-3px);
+	box-shadow: 0 6px 18px rgba(13, 110, 253, 0.6);
+  }
+  
+  .hero-section .btn-outline-light {
+	border: 2px solid #0d6efd;
+	padding: 12px 28px;
+	font-size: 1rem;
+	font-weight: 600;
+	border-radius: 50px;
+	color: #0d6efd;
+	transition: 0.3s;
+  }
+  
+  .hero-section .btn-outline-light:hover {
+	background-color: #0d6efd;
+	color: #ffffff;
+	transform: translateY(-3px);
+	box-shadow: 0 6px 18px rgba(13, 110, 253, 0.4);
+  }
+
+  /* Album Section */
+.album {
+	background-color: #ffffff; 
+  }
+  
+  /* Card */
+  .album .card {
+	border: none;
+	border-radius: 15px;
+	overflow: hidden;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .album .card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Card Body */
+  .album .card-body {
+	padding: 20px;
+	background: #ffffff;
+	border-top: 1px solid #e5e7eb;
+  }
+  
+  .album .card-text {
+	font-size: 0.95rem;
+	color: #374151; 
+	margin-bottom: 15px;
+	line-height: 1.5;
+  }
+  
+  /* Tombol */
+  .album .btn-outline-secondary {
+	border-color: #0d6efd;
+	color: #0d6efd;
+	transition: 0.3s;
+	font-weight: 500;
+	border-radius: 30px;
+	padding: 6px 16px;
+  }
+  
+  .album .btn-outline-secondary:hover {
+	background-color: #0d6efd;
+	color: #ffffff;
+	box-shadow: 0 4px 12px rgba(13, 110, 253, 0.4);
+  }
+  
+  /* Small Text */
+  .album small {
+	color: #6b7280; /* abu soft */
+	font-size: 0.85rem;
+  }
+  
+  
+  
